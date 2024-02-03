@@ -1,7 +1,6 @@
 const form = document.querySelector('.feedback-form');
 const localStorageKey = 'feedback-form-state';
 
-
 const savedState = JSON.parse(localStorage.getItem(localStorageKey));
 
 if (savedState) {
